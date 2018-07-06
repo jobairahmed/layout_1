@@ -1,0 +1,188 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*header start*/
+header{
+	overflow: hidden;
+	background-color: #A84240;
+}
+.logo {
+	width: 15%;
+	float: left;
+	margin-top: 20px;
+}
+.logo img {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.nav {
+	width: 65%;
+	float: right;
+}
+.nav ul {
+	list-style: none;
+	float: right;
+	padding: 10px 20px;
+
+}
+.nav ul li {
+	float: left;
+	padding: 10px 20px;
+
+
+}
+.nav ul li a {
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+	color: #DCDBD6;
+	transition: 1s;
+
+
+}
+.nav ul li a:hover {
+	color: #973534;
+
+}
+
+/*header end*/
+/*bannar start*/
+.bannar {
+	overflow: hidden;
+	
+	background-color: #A6BAB8;
+
+}
+
+.bannar_content {
+	text-align: center;
+	margin-top: 66px;
+    margin-bottom: 100px;
+}
+.bannar_content p {
+	font-size: 18px;
+	margin:0;
+
+}
+.bannar_content h1 {
+	font-size: 60px;
+	margin:0;
+
+}
+
+.text_color {
+}
+/*bannar end*/
+/*service start*/
+
+.service {
+	background-color: #594F4E;
+	padding: 20px 5px;
+}
+
+.service_top {
+	overflow: hidden;
+}
+
+.service_single {
+	float: left;
+	width: 22%;
+	background-color: #E1DED9;
+	border:1px solid yellow;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 8px;
+	min-height: 250px;
+}
+.add_margin {
+	margin-right: 13px;
+}
+
+.title {
+	overflow: hidden;
+	/*min-height: 100px;*/
+
+}
+
+.icon {
+	float: left;
+	width: 20%;
+
+	
+}
+.icon_content {
+	float: left;
+	width: 60%;
+	font-size: 30px;
+    display: block;
+    margin-top: 10px;
+    text-transform: capitalize;
+    margin-left: 5px;
+    color: #D5A07E;
+    transition: 1s;
+
+}
+.icon_content:hover {
+	color: white;
+
+}
+.icon img{
+	width: 100%;
+}
+
+.content {
+	padding: 8px;
+
+}
+.content p{
+	margin: 0;
+}
+.button_main {
+	text-align: center;
+}
+
+button {
+	background-color: #CF8B42;
+    font-size: 19px;
+    border-radius: 5px;
+    padding: 6px 10px;
+    border: 1px solid yellow;
+}
+/*service end*/
+/*footer start*/
+.footer {
+	overflow: hidden;
+	background-color:#A8403D;
+}
+.ask_me {
+	float: left;
+	width: 20%;
+	margin: 0px;
+	padding-bottom: 5px;
+}
+.mail {
+	overflow: hidden;
+}
+.mail_icon {
+	float: left;
+	width: 20%;
+	margin-top: 15px;
+}
+.mail_content {
+	float: left;
+	width: 60%;
+	font-size: 30px;
+    display: block;
+    margin-top: 18px;
+    text-transform: capitalize;
+    margin-left: 25px;
+    color: #D5A07E;
+}
+.mail img {
+	width: 100%;	
+}
+
+
+/*footer end*/
